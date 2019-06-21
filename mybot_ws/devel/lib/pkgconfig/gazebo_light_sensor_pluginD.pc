@@ -1,0 +1,8 @@
+prefix=/home/nico/mybot_ws/devel
+
+Name: gazebo_light_sensor_pluginD
+Description: Description of gazebo_light_sensor_pluginD
+Version: 0.0.0
+Cflags: -I/home/nico/mybot_ws/src/gazebo_light_sensor_pluginD/include
+Libs: -L/home/nico/mybot_ws/devel/lib 
+Requires: gazebo_plugins gazebo_ros roscpp

@@ -1,0 +1,18 @@
+install Gazebo (any version should work. I am using the 7.15.0)
+Follow: 
+http://wiki.ros.org/kinetic/Installation/Ubuntu
+
+type (while in the workspace):  
+catkin_make
+then type: 
+roslaunch mybot_gazebo mybot_world.launch
+
+To make the robot have our proggramed behavior type: 
+rosrun beginner_tutorials listener
+
+The environment currently is one made so we could test the behavior of the robot. Feel free to change the
+environment by changing the mybot.world file in /mybot_ws/src/mybot_gazebo/worlds
+
+
+
+
